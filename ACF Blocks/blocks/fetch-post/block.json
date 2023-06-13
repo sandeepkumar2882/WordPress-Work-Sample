@@ -1,0 +1,38 @@
+{
+    "name": "acf/fetch-post",
+    "title": "Fetch Posts",
+    "description": "A Custom ACF Block For Fetching Posts.",
+    "style": ["file:./fetch-post.css"],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["fetch-post", "quote"],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "fetch-post.php"
+    },
+    "align": "full",
+    "supports": {
+      "align": true,
+      "anchor": true,
+      "alignContent": false,
+      "color": {
+          "text": true,
+          "background": true,
+          "link": true
+      },
+      "alignText": true,
+      "spacing": {
+          "margin": [
+              "top",
+              "bottom"
+          ],
+          "padding": true
+      },
+      "typography": {
+          "lineHeight": true,
+          "fontSize": true
+      },
+      "fullHeight": true
+  }
+  }
+  

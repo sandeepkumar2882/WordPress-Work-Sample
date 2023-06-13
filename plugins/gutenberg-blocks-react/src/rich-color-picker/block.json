@@ -1,0 +1,53 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/rich-color-picker",
+	"version": "0.1.0",
+	"title": "Rich Color Picker",
+	"category": "widgets",
+	"icon": "color-picker",
+	"description": "Example block of Color Picker.",
+	"supports": {
+		"reusable": false,
+  
+		"html": false,
+		"color": {
+		  "gradients": true,
+		  "link": true,
+		  "__experimentalDefaultControls": {
+			"background": true,
+			"text": true,
+			"link": true
+		  }
+		},
+		"spacing": {
+		  "margin": true
+		},
+		"typography": {
+		  "fontSize": true,
+		  "lineHeight": true,
+		  "__experimentalFontFamily": true,
+		  "__experimentalFontWeight": true,
+		  "__experimentalFontStyle": true,
+		  "__experimentalTextTransform": true,
+		  "__experimentalLetterSpacing": true,
+		  "__experimentalDefaultControls": {
+			"fontSize": true,
+			"fontAppearance": true,
+			"textTransform": true
+		  }
+		}
+	  },
+    "attributes": {
+        "content": {
+            "type":"string"
+        },
+        "colorPicker":{
+            "type":"string"
+        }
+    },
+	"textdomain": "rich-color-picker",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

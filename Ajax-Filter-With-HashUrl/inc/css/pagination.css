@@ -1,0 +1,47 @@
+/*
+This file is responsible of styling for the pagination functionality. 
+*/
+.pagination-style .pagination {
+    height: 40px;
+    min-width: 40px;
+    border: 2px solid;
+    background: rgb(243, 105, 105);
+    color: blueviolet;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    padding: 20px;
+    margin-left:10px ;
+}
+
+.pagination-style {
+    display: flex;
+}
+
+.pagination-style button{
+    height: 40px;
+    width: 20%;
+    color:blueviolet;
+    margin-left: 15px;
+    border-radius: 20px;
+ }
+
+ .pagination-style .search-text{
+    height: 40px;
+    width: 20%;
+    margin-left: 15px;
+ }
+ 
+ .clear{
+    color: blueviolet;
+    border-radius: 20px;
+ }
+
+ .category-not-found{
+    color: rgb(247, 72, 9);
+    margin-left: 35%;
+    font-size: xx-large;
+    text-underline-position: below;
+ }

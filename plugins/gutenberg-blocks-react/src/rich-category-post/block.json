@@ -1,0 +1,35 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "rich-block/rich-category-post",
+    "version": "0.2.0",
+    "title": "Rich Category Post",
+    "category": "widgets",
+    "icon": "welcome-widgets-menus",
+    "description": "Display posts on category selection",
+    "supports": {
+      "html": false
+    },
+    "attributes": {
+      "showPostCounts": {
+        "type": "boolean",
+        "default": false
+      },
+      "selectedCategory": {
+        "type": "number",
+        "default": ""
+      },
+      "displayAuthor": {
+        "type": "boolean",
+        "default": false
+      },
+      "displayFutureImg": {
+        "type": "boolean",
+        "default": false
+      }
+    },
+    "textdomain": "rich-category-post",
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./index.css",
+    "style": "file:./style-index.css"
+  }

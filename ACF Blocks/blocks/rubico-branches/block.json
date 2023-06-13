@@ -1,0 +1,38 @@
+{
+    "name": "acf/rubico-branches",
+    "title": "Rubico Branches",
+    "description": "ACF Blocks - Rubico Branches.",
+    "style": ["file:./block.css"],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["branches", "quote", "Rubico Branches"],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    },
+    "align": "full",
+    "supports": {
+      "align": true,
+      "anchor": true,
+      "alignContent": false,
+      "color": {
+          "text": true,
+          "background": true,
+          "link": true
+      },
+      "alignText": true,
+      "spacing": {
+          "margin": [
+              "top",
+              "bottom"
+          ],
+          "padding": true
+      },
+      "typography": {
+          "lineHeight": true,
+          "fontSize": true
+      },
+      "fullHeight": true
+  }
+  }
+  

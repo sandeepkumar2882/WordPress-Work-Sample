@@ -1,0 +1,38 @@
+{
+    "name": "acf/rubico-mission",
+    "title": "Rubico Mission",
+    "description": "ACF Blocks - Rubico Mission.",
+    "style": ["file:./block.css"],
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["mission", "rubico mission" , "quote"],
+    "acf": {
+      "mode": "preview",
+      "renderTemplate": "block.php"
+    },
+    "align": "full",
+    "supports": {
+      "align": true,
+      "anchor": true,
+      "alignContent": false,
+      "color": {
+          "text": true,
+          "background": true,
+          "link": true
+      },
+      "alignText": true,
+      "spacing": {
+          "margin": [
+              "top",
+              "bottom"
+          ],
+          "padding": true
+      },
+      "typography": {
+          "lineHeight": true,
+          "fontSize": true
+      },
+      "fullHeight": true
+  }
+  }
+  

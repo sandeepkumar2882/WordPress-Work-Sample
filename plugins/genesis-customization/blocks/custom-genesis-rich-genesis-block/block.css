@@ -1,0 +1,57 @@
+/**
+* Styling for the Rich Genesis Block
+* Created By: Sandeep Kumar
+*/
+.module_feature-resource {
+    padding-top: 0 !important;
+}
+
+.module_feature-resource .support-your-need {
+    background: var(--teal-35);
+    padding: var(--module-spacing) var(--text-spacing--xl);
+    grid-column: 1 / 13;
+    border-radius: 30px;
+    box-shadow: var(--shadow-teal-20);
+}
+
+.module_feature-resource .support-your-need p {
+    max-width: 750px;
+    margin: auto;
+    margin-bottom: var(--text-spacing-l);
+}
+
+.module_feature-resource .support-your-need a.link-primary {
+    text-decoration: none;
+    display: inline-flex;
+}
+
+.module_feature-resource .support-your-need a.link-primary span:first-child {
+    display: inline-block;
+    border-bottom: 1px solid var(--dark-purple-100);
+    transition: all .3s ease;
+}
+
+.module_feature-resource .support-your-need a.link-primary:hover span:first-child {
+    border-bottom: 1px solid var(--dark-purple-70);
+}
+
+.module_feature-resource .support-your-need .container_icon {
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    background-color: var(--dark-purple-100);
+    margin-left: 10px;
+    opacity: 1;
+    transition: all .3s ease;
+}
+
+.module_feature-resource .support-your-need a.link-primary:hover .container_icon {
+    opacity: .7;
+}
+
+/* Media Breakpoint */
+@media (min-width: 768px) {
+    .module_feature-resource .support-your-need {
+        padding: var(--module-spacing);
+    }
+}

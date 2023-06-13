@@ -1,0 +1,37 @@
+{
+  "name": "acf/testimonial-demo",
+  "title": "Testimonial-Demo",
+  "description": "A custom testimonial block.",
+  "style": ["file:./testimonial-demo.css"],
+  "category": "formatting",
+  "icon": "admin-comments",
+  "keywords": ["testimonial", "quote"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "testimonial-demo.php"
+  },
+  "align": "full",
+  "supports": {
+    "align": true,
+    "anchor": true,
+    "alignContent": false,
+    "color": {
+        "text": true,
+        "background": true,
+        "link": true
+    },
+    "alignText": true,
+    "spacing": {
+        "margin": [
+            "top",
+            "bottom"
+        ],
+        "padding": true
+    },
+    "typography": {
+        "lineHeight": true,
+        "fontSize": true
+    },
+    "fullHeight": true
+}
+}
